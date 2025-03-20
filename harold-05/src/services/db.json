@@ -1,0 +1,49 @@
+{
+  "usuarios": [
+    {
+      "id": "6a25",
+      "nombre": "Harold",
+      "clave": "123456789898"
+    },
+    {
+      "id": "863c",
+      "nombre": "Harold",
+      "clave": "123456789898"
+    },
+    {
+      "id": "3afd",
+      "nombre": "Harold",
+      "clave": "123456789898"
+    },
+    {
+      "id": "851f",
+      "nombre": "Harold",
+      "clave": "123456789898"
+    },
+    {
+      "id": "47a3",
+      "nombre": "Harold",
+      "clave": "123456789898"
+    },
+    {
+      "id": "405c",
+      "nombre": "Harold",
+      "clave": "123456789898"
+    },
+    {
+      "id": "34b3",
+      "nombre": "Harold",
+      "clave": "123456789898"
+    },
+    {
+      "id": "ac40",
+      "nombre": "Dxmaster555@gmail.com",
+      "clave": "12345678"
+    },
+    {
+      "id": "b41e",
+      "nombre": "Dxmaster555@gmail.com",
+      "clave": "12345678"
+    }
+  ]
+}
