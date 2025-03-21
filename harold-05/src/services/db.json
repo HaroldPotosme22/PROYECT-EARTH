@@ -2,8 +2,9 @@
   "usuarios": [
     {
       "id": "6a25",
-      "nombre": "Harold",
-      "clave": "123456789898"
+      "nombre": "HaroldA",
+      "clave": "Dxmaster555",
+      "class": "Admin"
     },
     {
       "id": "863c",
@@ -74,6 +75,31 @@
       "id": "7b6c",
       "nombre": "",
       "clave": ""
+    },
+    {
+      "id": "b267",
+      "nombre": "kkkk",
+      "clave": "dddd"
+    },
+    {
+      "id": "ae5f",
+      "nombre": "kkkk",
+      "clave": "dddd"
+    },
+    {
+      "id": "130b",
+      "nombre": "dd",
+      "clave": "dddd"
+    },
+    {
+      "id": "611f",
+      "nombre": "serracinperrito@gmail.com",
+      "clave": "ddddddd"
+    },
+    {
+      "id": "3b48",
+      "nombre": "aa",
+      "clave": "aaa"
     }
   ]
 }

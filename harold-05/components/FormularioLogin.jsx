@@ -20,28 +20,29 @@ function FormularioLogin() {
 
 
   return (
+    
     <div className='todo-login0'>
+
     
-    
-    <form0 className="form0">
-    <span0 className="input-span0">
-      <label0 htmlFor="email0" className="label0">
-        correo electronico
-      </label0>
-      <input className='email0' name="email" id="email" onChange={(evento)=>setNombre(evento.target.value)}/>
-    </span0>
+    <form className="form0">
     <span className="input-span0">
-      <label0 htmlFor="password0" className="password0">
+      <label htmlFor="email0" className="label0">
+        correo electronico
+      </label>
+      <input className='email0' name="email" id="email" onChange={(evento)=>setNombre(evento.target.value)}/>
+    </span>
+    <span className="input-span0">
+      <label htmlFor="password0" className="password0">
         Password
-      </label0>
+      </label>
       <input className='pass0' type="password" name="password" id="password" onChange={(evento)=>setClave(evento.target.value)} />
     </span>
-    <span0 className="span0">
-    </span0>
+    <span className="span0">
+    </span>
     <span className="span0">
       no tienes cuenta ? <a href="Register">!Ingresa aqui!</a>
     </span>
-  </form0>
+  </form>
   <button onClick={validarUsuario}>Iniciar Sesión</button>
     </div>
   )

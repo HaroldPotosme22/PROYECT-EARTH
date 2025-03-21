@@ -11,8 +11,9 @@ function FormularioRegistro() {
             nombre: Vnombre,
             clave: Vclave,
         };
-        await postUsers(usuario, 'usuarios');
+        await postUsers(usuario, 'usuarios');  alert('Datos guardados exitosamente.');
     }
+    
 
     return (
         <div className="container">  
@@ -29,9 +30,9 @@ function FormularioRegistro() {
                 className="input1"
             />
 
-            <label1 htmlFor="password1" className="label1">
+            <label htmlFor="password1" className="label1">
                 Password
-            </label1>
+            </label>
        <input
                 type="password"
                 id="password1"
@@ -46,7 +47,7 @@ function FormularioRegistro() {
             </button>
 
          <footer>
-                ¿Ya tienes cuenta? <a href="/login">¡Inicia sesión aquí!</a>
+                ¿Ya tienes cuenta? <a href="/">!Ingresa aqui!</a>
         </footer>
    </div>
     );
