@@ -1,5 +1,6 @@
 import React from 'react'
 import FormularioLogin from '../components/FormularioLogin'
+import "../styles/Login.css"
 
 
 function Login() {
@@ -7,7 +8,8 @@ function Login() {
 
 
   return (
-   <div><FormularioLogin></FormularioLogin></div> 
+   
+   <div className='fondo0'><FormularioLogin/></div> 
       
       
   

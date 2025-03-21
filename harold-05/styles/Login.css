@@ -1,76 +1,83 @@
-.form {
-    --bg-light: #000000;
-    --bg-dark: #000000;
-    --clr: #4bb979;
-    --clr-alpha: #00000060;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    max-width: 300px;color: #00ff6a;
-  }
-  
-  .form .input-span {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .form input[type="email"],
+.todo-login0 {
+  background-color: #e8f5e9; 
+  border: 2px solid #388e3c; 
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
 
-  .form input[type="password"] {
-    border-radius: 0.5rem;
-    padding: 1rem 0.75rem;
-    width: 100%;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: var(--clr-alpha);
-    outline: 2px solid var(--bg-dark);
-  }
-  
-  .form input[type="email"]:focus,
-  .form input[type="password"]:focus {
-    outline: 2px solid var(--clr);
-  }
-  
-  .label {
-    align-self: flex-start;
-    color: var(--clr);
-    font-weight: 600;
-  }
-  
-  .form .submit {
-    padding: 1rem 0.75rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    border-radius: 3rem;
-    background-color: var(--bg-dark);
-    color: var(--bg-light);
-    border: none;
-    cursor: pointer;
-    transition: all 300ms;
-    font-weight: 600;
-    font-size: 0.9rem;
-  }
-  
-  .form .submit:hover {
-    background-color: var(--clr);
-    color: var(--bg-dark);
-  }
-  
-  .span {
-    text-decoration: none;
-    color: var(--bg-dark);
-    color: #000000;
-  }
-  
-  .span a {
-    color: var(--clr);
-  }
-  
+.form0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-span0 {
+  margin-bottom: 15px;
+}
+
+.label0 {
+  color: #1b5e20;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #388e3c;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4caf50; 
+  box-shadow: 0 0 5px #4caf50;
+}
+
+button {
+  background-color: #388e3c; 
+  color: #ffffff; 
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4caf50; 
+}
+
+a {
+  color: #1b5e20; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.span0 {
+  text-align: center;
+  margin-top: 10px;
+  color: #1b5e20;
+}
+.fondo0 {
+  background-color: #e8f5e9; 
+  background-image: url('https://www.shutterstock.com/image-photo/volcano-surroundings-costa-rica-spanish-600nw-1325835977.jpg'); /* Imagen de fondo */
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  border: 2px solid #388e3c;
+  border-radius: 10px;
+  padding: 300px;
+  width: cover;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: auto;
+}

@@ -1,0 +1,78 @@
+body {
+  background-color: #e8f5e9; 
+  background-image: url('https://www.entercostarica.com/images/auto-sized/new_ecr/680x340/pages/321-uvita-tours.jpeg'); /* Imagen de fondo */
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff; 
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px; 
+}
+
+.label1 {
+  font-size: 14px;
+  color: #1b5e20; 
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input1, .input11 {
+  width: 100%;
+  padding: 12px; 
+  margin-bottom: 15px;
+  border: 1px solid #4caf50; 
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  outline: none;
+}
+
+.input1:focus, .input11:focus {
+  border-color: #388e3c;
+  box-shadow: 0 0 5px #388e3c;
+}
+
+.submit1 {
+  width: 100%; 
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit1:hover {
+  background-color: #388e3c; 
+}
+
+footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555555; 
+}
+
+footer a {
+  color: #4caf50; 
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
